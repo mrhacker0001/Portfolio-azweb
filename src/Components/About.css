@@ -1,0 +1,36 @@
+.About{
+    width: 100dvw;
+    height: 85dvh;
+    display: flex;
+    align-items: center;
+    padding: 0 4dvw;
+}
+
+.About img{
+    width: 35dvw;
+}
+
+.right-card{
+    width: 50dvw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3dvw;
+    padding-left: 8dvw;
+}
+
+.right-card h2{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right-card h2 h1{
+    font-size: 54px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right-card p{
+    font-size: 20px;
+    color: #1C1E53;
+}

@@ -1,0 +1,99 @@
+.Portfolio {
+    width: 100dvw;
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 1dvw;
+    justify-content: center;
+}
+
+.recent {
+    width: 100dvw;
+    height: 15dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3dvw;
+}
+
+.recent h2 {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.recent h2 h1 {
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    width: 13dvw;
+    height: 7dvh;
+    background: none;
+    border: none;
+    border-radius: 7px;
+    background-color: #E62872;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1dvw;
+
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bottom-cards {
+    width: 100dvw;
+    height: 60dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3dvw;
+}
+
+.incard {
+    width: 23dvw;
+    height: 45dvh;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 1dvw;
+}
+
+.incard img {
+    border-radius: 10px;
+}
+
+.incard h1 {
+    font-size: 20px;
+    margin-left: 1.4dvw;
+    font-family: sans-serif;
+}
+
+.incard p {
+    width: 90%;
+    font-size: 16px;
+    margin-left: 1.4dvw;
+    font-family: sans-serif;
+    color: #1C1E53;
+}
+
+.incard button{
+    width: 10dvw;
+    height: 5dvh;
+    margin-left: 1.4dvw;
+    background: none;
+    border: none;
+    border-bottom: 1.5px solid black;
+    border-radius: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.incard button img{
+    width: 2dvw;
+}
