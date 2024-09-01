@@ -5,7 +5,7 @@ import img from "../assets/Screenshot 2024-08-29 at 21.28.36.png"
 
 function About() {
   return (
-    <div className='About'>
+    <div className='About' id='about'>
         <img src={img} alt="..." />
         <div className="right-card">
             <h2>About <br /> <h1>About me</h1></h2>

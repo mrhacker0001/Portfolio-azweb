@@ -4,7 +4,7 @@ import img from "../assets/Screenshot 2024-08-29 at 20.54.22.png"
 
 function Home() {
   return (
-    <div className='Home'>
+    <div className='Home' id='home'>
       <div className="first-card">
         <span>Hey, I am Azweb</span>
         <h1>I create product design and brand experience</h1>

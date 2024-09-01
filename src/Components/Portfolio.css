@@ -82,7 +82,7 @@ button {
     color: #1C1E53;
 }
 
-.incard button{
+.incard button {
     width: 10dvw;
     height: 5dvh;
     margin-left: 1.4dvw;
@@ -90,10 +90,14 @@ button {
     border: none;
     border-bottom: 1.5px solid black;
     border-radius: 0;
+
+}
+
+.incard button a {
     color: black;
     font-size: 16px;
 }
 
-.incard button img{
+.incard button img {
     width: 2dvw;
 }

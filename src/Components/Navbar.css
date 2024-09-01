@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 
-.Navbar{
+.Navbar {
     width: 100dvw;
     height: 10dvh;
 }
 
-.nav{
+.nav {
     width: 100dvw;
     height: 100%;
     display: flex;
@@ -15,25 +15,23 @@
     padding: 0 5dvw;
 }
 
-.nav img{
+.nav img {
     width: 7dvw;
     height: 8dvh;
 }
 
-.tags{
+.tags {
     width: auto;
     height: auto;
     display: flex;
-    gap: 2.5dvw;
+    gap: 1dvw;
 }
 
-.tags a{
-    color: black;
-    cursor: pointer;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.tags button {
+    color: aliceblue;
 }
 
-.nav button{
+.nav button {
     width: 8dvw;
     height: 5dvh;
     background: none;
@@ -42,5 +40,12 @@
     border: 1.5px solid #5E3BEE;
     border-color: #5E3BEE;
     color: #5E3BEE;
+    cursor: pointer;
+}
+
+.tags button {
+    width: 6dvw;
+    color: black;
+    border: none;
     cursor: pointer;
 }

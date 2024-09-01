@@ -10,7 +10,7 @@ function Testimonials() {
         { star: vector, tavsif: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse varius enim in eros elementum tristique.Duis cursus, mi quis viverra.", avatar: avatar },
     ]
     return (
-        <div className='Testimonials'>
+        <div className='Testimonials' id='testimonials'>
             <h4>Clients Feedback <br /><h1>Customer testimonials</h1></h4>
             <div className="feedbacks">
                 {
