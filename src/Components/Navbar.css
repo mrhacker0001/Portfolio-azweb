@@ -227,6 +227,10 @@
     .medias button img {
         width: 3dvw;
     }
+
+    .logo{
+        width: 20dvw;
+    }
 }
 
 @media (max-width:585px) {
@@ -292,6 +296,10 @@
 
     .medias button img {
         width: 3dvw;
+    }
+
+    .logo{
+        width: 23dvw;
     }
 }
 

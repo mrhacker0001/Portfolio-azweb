@@ -34,3 +34,59 @@
     font-size: 20px;
     color: #1C1E53;
 }
+
+@media (max-width:1200px) {
+    .right-card p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1070px) {
+.right-card h2 h1{
+    font-size: 32px;
+}
+}
+
+@media (max-width:930px) {
+.right-card p{
+    font-size: 15px;
+}
+}
+
+@media (max-width:640px) {
+    .About{
+        width: 100dvw;
+        height: 80dvh;
+        display:flex;
+        flex-direction: column;
+        margin-top: 7dvh;
+        gap: 3dvh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .About img{
+        border: none;
+    }
+
+    .right-card{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:580px) {
+.right-card p{
+    font-size: 18px;
+}
+
+.About img{
+    width: 60dvw;
+}
+}
+
+@media (max-width:460px) {
+.right-card p{
+    font-size: 16px;
+}
+}
