@@ -5,6 +5,11 @@
     flex-direction: column;
     gap: 1dvw;
     justify-content: center;
+    padding: 50px;
+}
+
+.port{
+    display: none;
 }
 
 .recent {
@@ -101,3 +106,108 @@ button {
 .incard button img {
     width: 2dvw;
 }
+
+@media (max-width:1470px) {
+    .incard {
+        width: 23dvw;
+        height: 45dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 2dvw;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        gap: 1dvw;
+    }
+
+    .recent button {
+        width: 15dvw;
+    }
+}
+
+@media (max-width:1350px) {
+    .incard {
+        width: 28dvw;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+}
+
+@media (max-width:1250px) {
+    .incard {
+        width: 28dvw;
+        height: 40dvh;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .incard h1 {
+        font-size: 18px;
+    }
+
+    .incard p {
+        font-size: 14px;
+    }
+
+    .incard button {
+        width: 15dvw;
+    }
+
+    .recent button {
+        width: 18dvw;
+        font-size: 18px;
+    }
+
+    .recent button img {
+        width: 2dvw;
+    }
+
+}
+
+@media (max-width:1050px) {
+    .Portfolio {
+        padding: 2dvw 0;
+        height: 130dvh;
+    }
+
+    .bottom-cards {
+        width: 100dvw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6dvh;
+    }
+
+    .incard {
+        width: 40dvw;
+        height: 45dvh;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .incard button {
+        width: 25dvw;
+    }
+}
+
+
+@media (max-width:940px) {
+    .recent button {
+        width: 22dvw;
+    }
+}
+
+@media (max-width:800px) {
+.port{
+    display: block;
+}
+.Portfolio{
+    display: none;
+}
+
+
+}
+
+

@@ -209,6 +209,10 @@
         width: 50dvw;
         transform: translateX(50dvw);
     }
+
+    .navbar-media{
+        width: 100dvw;
+    }
 }
 
 @media (max-width:660px) {
@@ -231,11 +235,15 @@
     .logo{
         width: 20dvw;
     }
+
+        .navbar-media {
+            width: 100dvw;
+        }
 }
 
 @media (max-width:585px) {
     .navbar-media {
-        width: 112dvw;
+        width: 100dvw;
     }
 }
 
@@ -270,7 +278,7 @@
 
 @media (max-width:480px) {
     .navbar-media {
-        width: 115dvw;
+        width: 100dvw;
     }
 
     .mobile-menu {
@@ -305,12 +313,12 @@
 
 @media (max-width:400px) {
     .navbar-media {
-        width: 118dvw;
+        width: 100dvw;
     }
 }
 
 @media (max-width:350px) {
     .navbar-media {
-        width: 125dvw;
+        width: 100dvw;
     }
 }

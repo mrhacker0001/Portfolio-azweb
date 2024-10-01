@@ -103,6 +103,7 @@
     }
 
     .Home {
+        width: 100dvw;
         height: 70dvh;
     }
 }
@@ -118,6 +119,7 @@
     }
 
     .Home {
+        width: 100dvw;
         height: 60dvh;
         padding-top: 8dvh;
     }
@@ -170,7 +172,7 @@
     }
 
     .Home {
-        width: 112dvw;
+        width: 100dvw;
         height: 240dvw;
     }
 
@@ -197,7 +199,7 @@
     }
 
     .Home {
-        width: 116dvw;
+        width: 100dvw;
         height: 230dvw;
     }
 
@@ -205,7 +207,7 @@
 
 @media (max-width:380px) {
     .Home {
-        width: 120dvw;
+        width: 100dvw;
         height: 220dvw;
     }
 
@@ -219,8 +221,8 @@
 }
 
 @media (max-width:330px) {
-.Home {
-        width: 130dvw;
+    .Home {
+        width: 100dvw;
         height: 240dvw;
     }
 }
