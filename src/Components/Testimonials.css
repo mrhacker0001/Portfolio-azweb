@@ -85,22 +85,30 @@
 }
 
 @media (max-width:650px) {
-.stars img{
-    width: 3dvw;
-}
+    .Testimonials {
+        height: 110dvh;
+    }
 
-.avatar{
-    width: 20dvw;
-}
+    .stars img {
+        width: 3dvw;
+    }
+
+    .avatar {
+        width: 20dvw;
+    }
 }
 
 @media (max-width:470px) {
-    .Testimonials h4 h1{
+    .Testimonials {
+        height: 120dvh;
+    }
+
+    .Testimonials h4 h1 {
         font-size: 28px;
     }
 
-        .feedback {
-            width: 90%;
-            height: 30dvh;
-        }
+    .feedback {
+        width: 90%;
+        height: 30dvh;
+    }
 }
