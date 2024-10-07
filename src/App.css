@@ -8,12 +8,8 @@
   font-family: Inter;
 }
 
-.App{
-outline: none;
-width: 100dvw;
-height: auto;
+.App {
+  outline: none;
+  width: 110dvw;
+  height: auto;
 }
-
-
-
-

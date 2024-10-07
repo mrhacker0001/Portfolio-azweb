@@ -47,7 +47,7 @@ function Portfolio() {
             gap:"5dvw"
         },
         recentButton: {
-            width: "30dvw",
+            width: "70%",
             display: 'flex',
             alignItems: 'center',
             backgroundColor: '#007bff',
@@ -106,7 +106,7 @@ function Portfolio() {
             fontSize: '16px',
             borderRadius: '5px',
             cursor: 'pointer',
-            width: '30dvw'
+            width: '80%'
         },
         cardButtonImg: {
             marginLeft: '10px',

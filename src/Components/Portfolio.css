@@ -1,14 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .Portfolio {
     width: 100dvw;
     height: 90dvh;
     display: flex;
     flex-direction: column;
-    gap: 1dvw;
     justify-content: center;
+    gap: 1dvw;
     padding: 50px;
 }
 
-.port{
+.port {
     display: none;
 }
 
@@ -55,7 +61,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3dvw;
+    padding: 0 2dvw;
 }
 
 .incard {
@@ -167,6 +173,8 @@ button {
 
 @media (max-width:1050px) {
     .Portfolio {
+        width: 100dvw;
+        outline: none;
         padding: 2dvw 0;
         height: 130dvh;
     }
@@ -200,14 +208,13 @@ button {
 }
 
 @media (max-width:800px) {
-.port{
-    display: block;
-}
-.Portfolio{
-    display: none;
-}
+    .port {
+        display: block;
+    }
+
+    .Portfolio {
+        display: none;
+    }
 
 
 }
-
-
