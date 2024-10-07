@@ -161,6 +161,10 @@
 }
 
 @media (max-width:600px) {
+    .Contact {
+        height: 120dvh;
+    }
+
     .input-cards {
         width: 100dvw;
         height: 90dvh;
@@ -271,6 +275,7 @@
 }
 
 @media (max-width:430px) {
+
     .input-card input {
         width: 80dvw;
     }
