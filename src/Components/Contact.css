@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     gap: 3dvh;
-    background-color: black;
 }
 
 .input-cards {
@@ -24,7 +23,6 @@
     height: 25dvh;
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: center;
     padding: 2dvw;
     gap: 3dvw;
@@ -90,7 +88,7 @@
     overflow: scroll;
 }
 
-.checkbox{
+.checkbox {
     width: 100%;
     height: 5dvh;
     display: flex;
@@ -98,17 +96,211 @@
     gap: 0.5dvw;
 }
 
-.checkbox input{
+.checkbox input {
     width: 1dvw;
     height: 2dvh;
     cursor: pointer;
 }
 
-.submit{
+.submit {
     width: 10dvw;
     height: 6dvh;
     background-color: #5E3BEE;
 
     color: #fff;
     margin-bottom: 5dvh;
+}
+
+@media (max-width:1000px) {
+    .input-cards {
+        width: 100dvw;
+        height: 90dvh;
+    }
+
+    .input-card {
+        width: 80dvw;
+        height: 25dvh;
+    }
+
+    .text-card {
+        width: 60dvw;
+        height: 50dvh;
+    }
+
+    .input-card input {
+        width: 25dvw;
+        height: 4dvh;
+    }
+
+    .text-card select {
+        width: 53dvw;
+        height: 4dvh;
+    }
+
+    .text-card input {
+        width: 53dvw;
+        height: 15dvh;
+        font-size: 16px;
+    }
+
+    .checkbox {
+        width: 60dvw;
+        height: 5dvh;
+    }
+
+    .checkbox input {
+        width: 2dvw;
+        height: 2dvh;
+        cursor: pointer;
+    }
+
+    .submit {
+        width: 20dvw;
+        font-size: 22px;
+    }
+}
+
+@media (max-width:600px) {
+    .input-cards {
+        width: 100dvw;
+        height: 90dvh;
+    }
+
+    .input-card {
+        width: 90dvw;
+        height: 25dvh;
+    }
+
+    .text-card {
+        width: 75dvw;
+        height: 50dvh;
+    }
+
+    .input-card input {
+        width: 33dvw;
+        height: 4dvh;
+    }
+
+    .text-card select {
+        width: 69dvw;
+        height: 4dvh;
+    }
+
+    .text-card input {
+        width: 69dvw;
+        height: 12dvh;
+        font-size: 16px;
+    }
+
+    .checkbox {
+        width: 60dvw;
+        height: 5dvh;
+    }
+
+    .checkbox input {
+        width: 3dvw;
+        height: 2dvh;
+        cursor: pointer;
+    }
+
+    .submit {
+        width: 30dvw;
+        font-size: 22px;
+    }
+}
+
+@media (max-width:470px) {
+    .input-cards {
+        width: 100dvw;
+        height: 90dvh;
+        gap: 6dvw;
+        margin-top: 3dvh;
+    }
+
+    .Contact p {
+        width: 80dvw;
+        text-align: center;
+    }
+
+    .input-card {
+        width: 90dvw;
+        height: 25dvh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-card {
+        width: 66dvw;
+        height: 50dvh;
+    }
+
+    .input-card input {
+        width: 60dvw;
+        height: 4dvh;
+    }
+
+    .text-card select {
+        width: 60dvw;
+        height: 4dvh;
+    }
+
+    .text-card input {
+        width: 60dvw;
+        height: 15dvh;
+        font-size: 14px;
+        padding-bottom: 20dvw;
+    }
+
+    .checkbox {
+        width: 60dvw;
+        height: 5dvh;
+    }
+
+    .checkbox input {
+        width: 5dvw;
+        height: 2dvh;
+        cursor: pointer;
+    }
+
+    .submit {
+        width: 40dvw;
+        font-size: 22px;
+    }
+}
+
+@media (max-width:430px) {
+    .input-card input {
+        width: 80dvw;
+    }
+
+    .text-card {
+        width: 86dvw;
+        height: 50dvh;
+    }
+
+    .text-card select {
+        width: 80dvw;
+    }
+
+    .text-card input {
+        width: 80dvw;
+    }
+
+    .checkbox {
+        width: 86dvw;
+        height: 5dvh;
+    }
+
+    .checkbox input {
+        width: 5dvw;
+        height: 2dvh;
+        cursor: pointer;
+    }
+
+    .submit {
+        width: 40dvw;
+        font-size: 22px;
+    }
 }
